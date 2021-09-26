@@ -1,0 +1,10 @@
+.header-part{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+    background-color: rgb(203, 175, 230);
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}

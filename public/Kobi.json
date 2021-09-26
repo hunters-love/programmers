@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Robindronath Thakur",
+        "id": 1,
+        "famousbook": "Choker bali",
+        "birthDate": 1913,
+        "bookPrice": 300,
+        "image": "https://cdn.britannica.com/49/134949-050-242B08C7/Rabindranath-Tagore.jpg"
+    },
+    {
+        "name": "Kazi Nazrul Islam",
+        "id": 2,
+        "famousbook": "Dolon Chapa",
+        "birthDate": 1899,
+        "bookPrice": 500,
+        "image": "https://static-01.daraz.com.bd/p/9e19ca69bf1af6626fbae1b706c4fa34.jpg"
+    },
+    {
+        "name": "Humaion Ahmmed",
+        "id": 3,
+        "famousbook": "Shuvro",
+        "birthDate": 1948,
+        "bookPrice": 600,
+        "image": "https://businesspostbd.com/files/thumbs/daily-media/People/Others/800x457/Humayun-Ahmed2.png"
+    },
+    {
+        "name": "Johir Raihan",
+        "id": 4,
+        "famousbook": "Trishna",
+        "birthDate": 1935,
+        "bookPrice": 600,
+        "image": "https://bmdb.com.bd/wp-content/uploads/2015/02/Zahir-Raihan-9.jpg"
+    },
+    {
+        "name": "Joshim uddin",
+        "id": 5,
+        "famousbook": "Nokshi kathar math",
+        "birthDate": 1903,
+        "bookPrice": 200,
+        "image": "https://lh3.googleusercontent.com/proxy/ixbuzq4skAbzNOd7aN8eH0cjzIslV6_9sT52A76LMcEGXmmPC2a2lzJuW3jyQWss9wTY1VhZegD37gHmjvwVECI"
+    },
+    {
+        "name": "Bagom rokya",
+        "id": 6,
+        "famousbook": "Nari gajoron",
+        "birthDate": 1880,
+        "bookPrice": 700,
+        "image": "https://cdn.jagonews24.com/media/imgAllNew/BG/2017November/begum-rokeya-s-20171209092953.jpg"
+    },
+    {
+        "name": "Rudro mohmmad sohidullah",
+        "id": 7,
+        "famousbook": "Bebaghi mon",
+        "birthDate": 1956,
+        "bookPrice": 800,
+        "image": "https://cdn.jagonews24.com/media/imgAllNew/BG/2017September/rudro-b-20171016122428.jpg"
+    },
+    {
+        "name": "Maikel modhu sudhon",
+        "id": 8,
+        "famousbook": "Sonet ",
+        "birthDate": 1930,
+        "bookPrice": 900,
+        "image": "https://media-eng.dhakatribune.com/uploads/2021/01/michael-madhusudan-dutt-1611570527673.jpg"
+    },
+    {
+        "name": "Bonkim chandra",
+        "id": 9,
+        "famousbook": "moyes ",
+        "birthDate": 1838,
+        "bookPrice": 100,
+        "image": "https://dailyasianage.com/library/2018/04/07/1523126891_4.jpg"
+    }
+]

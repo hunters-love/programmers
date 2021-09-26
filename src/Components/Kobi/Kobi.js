@@ -19,6 +19,9 @@ const Kobi = (props) => {
                             <h5>Id:{id}</h5>
                             <h5>Famous-book:{famousbook}</h5>
                             <h6>Price:{bookPrice}</h6>
+                            <button onClick={
+                                () => props.handelButton(props.allDetail)
+                            } type="button" className="btn btn-warning"><i className="fas fa-info-circle"></i> Details</button>
 
 
                         </div>

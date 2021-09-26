@@ -1,0 +1,11 @@
+.cart-area{
+    background-color: gray;
+    height: 350px;
+    color: whitesmoke;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+.font-size{
+    font-style: bold;
+}

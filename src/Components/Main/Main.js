@@ -1,16 +1,24 @@
 import React, { useState, useEffect } from 'react';
+import Cart from '../Cart/Cart';
 import Kobi from '../Kobi/Kobi';
 import "./Main.css"
 
 const Main = () => {
 
     const [details, setdetails] = useState([]);
+    const [cart, setCart] = useState([])
 
     useEffect(() => {
         fetch("/Kobi.json")
             .then(Response => Response.json())
             .then(data => setdetails(data))
     }, [])
+
+    // for detail named button purpose
+    const handelButton = (detail) => {
+        const newCart = [...cart, detail]
+        setCart(newCart);
+    }
 
     return (
         <div>
@@ -20,6 +28,8 @@ const Main = () => {
                         {
                             details.map(detail => <Kobi
                                 allDetail={detail}
+                                handelButton={handelButton}
+                                key={detail.id}
 
                             ></Kobi>)
                         }
@@ -27,7 +37,13 @@ const Main = () => {
 
                     </div>
                 </div>
-                <div className="col-md-3"></div>
+                <div className="col-md-3">
+                    <Cart
+
+                        cart={cart}
+
+                    ></Cart>
+                </div>
             </div>
 
         </div>
